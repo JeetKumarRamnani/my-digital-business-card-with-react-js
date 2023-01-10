@@ -18,6 +18,8 @@ body {
     display           : flex;
     justify-content   : center;
     align-items       : center;
+    margin-top        : 10px;
+    margin-bottom     : 10px;
 
 }
 
@@ -26,6 +28,8 @@ body {
     /* height          : 750px; */
     background-color   : #1A1B21;
     text-align         : center;
+    box-shadow         : 1px 2px 5px rgba(247, 3, 3, 0.1);
+
 }
 
 .my-image {
@@ -55,15 +59,16 @@ body {
 
 .info {
     margin-top: 15px;
-
-    max-width: 250px;
-    margin   : 10px auto;
+    max-width : 250px;
+    margin    : 10px auto;
 
 }
 
 .info p {
     font-size : 0.8em;
     text-align: justify;
+    max-width : 100%;
+
 }
 
 .info {
@@ -72,8 +77,8 @@ body {
 }
 
 h4 {
-    margin-top   : 20px;
-    margin-bottom: 20px;
+    margin-top   : 15px;
+    margin-bottom: 15px;
 }
 
 .yt {
@@ -85,6 +90,15 @@ h4 {
     border-radius   : 7px;
     font-weight     : bold;
     cursor          : pointer;
+
+}
+
+.yt a {
+    text-decoration: none;
+}
+
+.insta a {
+    text-decoration: none;
 }
 
 .insta {
@@ -127,4 +141,14 @@ footer i {
 
 .fa-instagram {
     color: #405DE6
+}
+
+
+.yt:active {
+    transform: translateY(2px);
+}
+
+
+.insta:active {
+    transform: translateY(2px);
 }
