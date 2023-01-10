@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
+
+* {
+    margin     : 0;
+    padding    : 0;
+    box-sizing : border-box;
+    font-family: "Inter";
+    color      : aliceblue;
+}
+
+body {
+    background-color: #23252C;
+}
+
+.main-container {
+    background        : #23252C;
+    /* height         : 100vh; */
+    display           : flex;
+    justify-content   : center;
+    align-items       : center;
+
+}
+
+.Whole-Card {
+    width              : 317px;
+    /* height          : 750px; */
+    background-color   : #1A1B21;
+    text-align         : center;
+}
+
+.my-image {
+    width     : 100%;
+    height    : 290px;
+    object-fit: cover;
+}
+
+.my-name {
+    color     : aliceblue;
+    text-align: center;
+    font-size : 20px;
+    margin-top: 15px;
+}
+
+.about-me {
+    font-size: 12px;
+    color    : #F3BF99;
+
+}
+
+.email {
+    color    : #F5F5F5;
+    font-size: 8px;
+
+}
+
+.info {
+    margin-top: 15px;
+
+    max-width: 250px;
+    margin   : 10px auto;
+
+}
+
+.info p {
+    font-size : 0.8em;
+    text-align: justify;
+}
+
+.info {
+    text-align: left;
+    margin-top: 20px
+}
+
+h4 {
+    margin-top   : 20px;
+    margin-bottom: 20px;
+}
+
+.yt {
+    color           : white;
+    padding         : 9px 13px 9px 11px;
+    width           : 115px;
+    height          : 34px;
+    background-color: #FF0000;
+    border-radius   : 7px;
+    font-weight     : bold;
+    cursor          : pointer;
+}
+
+.insta {
+    color        : white;
+    padding      : 9px 13px 9px 11px;
+    width        : 115px;
+    height       : 34px;
+    margin-left  : 15px;
+    background   : linear-gradient(45deg, #405de6, #5851db, #833ab4, #c13584, #e1306c, #fd1d1d);
+    border-radius: 7px;
+    font-weight  : bold;
+    cursor       : pointer;
+}
+
+footer {
+    background-color: #161619;
+    padding         : 20px;
+}
+
+
+footer i {
+    width: 50px;
+
+    font-size: 1.3rem;
+    cursor   : pointer;
+
+}
+
+.fa-youtube {
+    color: red;
+}
+
+.fa-square-facebook {
+    color: #4267B2;
+}
+
+.fa-square-twitter {
+    color: #1DA1F2;
+}
+
+.fa-instagram {
+    color: #405DE6
+}
